@@ -203,6 +203,8 @@
 <dimension x1="35.814" y1="25.146" x2="35.814" y2="13.208" x3="37.084" y3="19.177" textsize="1.778" layer="51" unit="inch" precision="1"/>
 <dimension x1="91.44" y1="12.954" x2="91.44" y2="0" x3="90.678" y3="6.477" textsize="1.778" layer="51" unit="inch" precision="1"/>
 <dimension x1="26.416" y1="34.798" x2="26.67" y2="-0.254" x3="26.8117125" y3="17.273946875" textsize="1.778" layer="51" unit="inch" precision="1"/>
+<dimension x1="63.5508" y1="37.5666" x2="63.4492" y2="92.7354" x3="60.972684375" y3="65.146346875" textsize="1.778" layer="51" unit="inch" precision="1"/>
+<dimension x1="46.8884" y1="56.0324" x2="81.788" y2="55.9308" x3="64.339084375" y3="56.2852875" textsize="1.778" layer="51" unit="inch" precision="1"/>
 </plain>
 <libraries>
 <library name="pcb_garlepp">

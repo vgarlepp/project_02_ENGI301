@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -28,12 +28,12 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -193,16 +193,11 @@
 <dimension x1="118.872" y1="66.548" x2="127" y2="66.548" x3="122.936" y3="66.548" textsize="1.778" layer="51" unit="inch" precision="1" visible="yes"/>
 <dimension x1="115.062" y1="76.708" x2="115.062" y2="71.882" x3="116.84" y3="74.295" textsize="1.778" layer="51" unit="inch" precision="1" visible="yes"/>
 <dimension x1="108.458" y1="66.294" x2="105.41" y2="66.294" x3="106.934" y3="66.294" textsize="1.778" layer="51" unit="inch" precision="1" visible="yes"/>
+<dimension x1="108.204" y1="89.662" x2="105.41" y2="89.662" x3="106.807" y3="93.218" textsize="1.778" layer="51" unit="inch" precision="1" visible="yes"/>
 <dimension x1="118.364" y1="89.916" x2="118.364" y2="101.6" x3="118.364" y3="95.758" textsize="1.778" layer="51" unit="inch" precision="1" visible="yes"/>
 <dimension x1="61.468" y1="96.52" x2="61.468" y2="101.6" x3="61.468" y3="99.06" textsize="1.778" layer="51" unit="inch" precision="1" visible="yes"/>
 <dimension x1="76.2" y1="96.52" x2="61.468" y2="96.52" x3="68.834" y3="104.14" textsize="1.778" layer="51" unit="inch" precision="1" visible="yes"/>
 <dimension x1="61.468" y1="96.52" x2="0" y2="96.52" x3="30.734" y3="98.806" textsize="1.778" layer="51" unit="inch" precision="1" visible="yes"/>
-<dimension x1="20.32" y1="12.954" x2="20.066" y2="25.4" x3="23.6024375" y3="19.246578125" textsize="1.778" layer="51" unit="inch"/>
-<dimension x1="10.414" y1="12.954" x2="20.32" y2="12.954" x3="15.367" y3="7.366" textsize="1.778" layer="51" unit="inch"/>
-<dimension x1="34.544" y1="14.478" x2="46.736" y2="14.478" x3="40.64" y3="9.906" textsize="1.778" layer="51" unit="inch" precision="1"/>
-<dimension x1="35.814" y1="25.146" x2="35.814" y2="13.208" x3="37.084" y3="19.177" textsize="1.778" layer="51" unit="inch" precision="1"/>
-<dimension x1="91.44" y1="12.954" x2="91.44" y2="0" x3="90.678" y3="6.477" textsize="1.778" layer="51" unit="inch" precision="1"/>
-<dimension x1="26.416" y1="34.798" x2="26.67" y2="-0.254" x3="26.8117125" y3="17.273946875" textsize="1.778" layer="51" unit="inch" precision="1"/>
 </plain>
 <libraries>
 <library name="pcb_garlepp">
